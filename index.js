@@ -10,7 +10,7 @@ const extractNumbers = (str) => {
     return numbers;
 }
 
-console.log(extractNumbers("Extracted numbers", "a1fg5hj6"));
+console.log("Extracted numbers", extractNumbers("a1fg5hj6"));
 
 // 2
 const fibonacciWithDelay = (n, a = 0, b = 1) => {
