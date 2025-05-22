@@ -1,0 +1,22 @@
+body {
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 50px;
+}
+
+#toggleBlock {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-right: 20px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+}
