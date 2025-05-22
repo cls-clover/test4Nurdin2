@@ -89,7 +89,9 @@ intervalId = setInterval(updateCounter, 1);
 
 
 // 7
-const getCharacters = async () => {
+const getBtn = document.querySelector('#getJson');
+
+getBtn.onclick = async () => {
     try {
         const response = await fetch("../data/characters.json")
         const data = await response.json()
@@ -99,4 +101,3 @@ const getCharacters = async () => {
     }
 }
 
-getCharacters();
